@@ -5,20 +5,47 @@ Il consiste en la création et l'entrainement d'un agent capable de jouer à Sup
 
 L'agent de ce projet utilise un duel DQN, après TODO épisodes il arrive à atteindre le niveau 3 du jeu.
 
-Créer un nouvel environnement (anaconda):  
+## Clonage du projet
+### Git clone
+```bash
+git clone https://github.com/Baragouine/Super-Mario-RL.git
+```
+### Entrer dans le projet
+```bash
+cd Super-Mario-RL
+```
+
+## Créer un nouvel environnement (anaconda):  
+```bash
 conda create --name rl-mario python==3.8  
-  
-Activer l'environnement:  
+```
+
+## Activer l'environnement:  
+```bash
 conda activate rl-mario  
+```
 
-Pour installer les dépendances:  
+## Installer les dépendances:
+```bash
 pip install -r requirements.txt  
+```
 
-Installer ipykernel:  
+## Installer ipykernel:  
+```bash
 conda install -c anaconda ipykernel  
 python -m ipykernel install --user --name=rl-mario  
+```
 
-Pour désactiver l'environnement:  
+## Ouvrir le notebook
+```bash
+jupyter notebook --NotebookApp.max_buffer_size=99999999999999
+```
+
+## Instructions
+Après avoir ouvert le notebook vous pouvez entrainer le modèle ou bien le tester en exécutant les bonnes cellules.
+
+## Pour désactiver l'environnement:  
+```bash
 conda deactivate  
-  
+```
 
