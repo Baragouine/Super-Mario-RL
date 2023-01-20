@@ -42,7 +42,8 @@ jupyter notebook --NotebookApp.max_buffer_size=99999999999999
 ```
 
 ## Instructions
-Après avoir ouvert le notebook vous pouvez entrainer le modèle ou bien le tester en exécutant les bonnes cellules.
+Après avoir ouvert le notebook vous pouvez entrainer le modèle ou bien le tester en exécutant les bonnes cellules.  
+Il y a des indications sur les cellules à exécuter au début de chaque bloc, il suffit de les lire pour savoir quelles cellules exécuter pour l'entrainement et quelles cellules exécuter pour le test.
 
 ## Pour désactiver l'environnement:  
 ```bash
