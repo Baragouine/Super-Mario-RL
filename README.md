@@ -11,7 +11,7 @@ L'agent de ce projet utilise un duel DQN, après 29000 épisodes ou 171 heures d
 
 ## Rapport et vidéo de démonstration
 Le rapport est dans le répertoire doc au format pdf.  
-Une vidéo de démonstration après 29000 épisodes est accessible sur YouTube à l'url suivant: https://www.youtube.com/watch?v=idIOWg084KQ .  
+Une vidéo de démonstration après les 29000 épisodes est disponible sur YouTube à l'url suivante: https://www.youtube.com/watch?v=idIOWg084KQ .  
 
 ## Clonage du projet
 ### Git clone
