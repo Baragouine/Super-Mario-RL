@@ -10,7 +10,7 @@ L'agent de ce projet utilise un duel DQN, après 29000 épisodes ou 171 heures d
 </p>
 
 ## Rapport et vidéo de démonstration
-Le rapport est dans le répertoire doc au format pdf.  
+Le rapport est dans le répertoire `doc` au format pdf.  
 Une vidéo de démonstration après les 29000 épisodes est disponible sur YouTube à l'url suivante: https://www.youtube.com/watch?v=idIOWg084KQ .  
 
 ## Clonage du projet
@@ -50,8 +50,12 @@ jupyter notebook --NotebookApp.max_buffer_size=99999999999999
 ```
 
 ## Instructions
-Après avoir ouvert le notebook vous pouvez entrainer le modèle ou bien le tester en exécutant les bonnes cellules.  
+Après avoir ouvert le notebook (SuperMarioBrosRL.ipynb) vous pouvez entrainer le modèle ou bien le tester en exécutant les bonnes cellules.  
 Il y a des indications sur les cellules à exécuter au début de chaque bloc, il suffit de les lire pour savoir quelles cellules exécuter pour l'entrainement et quelles cellules exécuter pour le test.
+
+## Modèle pré-entrainer
+Dans le répertoire `checkpoints` il y a le modèle pré-entrainer (épisode 29000) et l'historique de notre entraînement.  
+Vous n'avez pas besoin de modifier le notebook pour exécuter ce modèle pré-entrainer, exécuter seulement les bonnes cellules.  
 
 ## Pour désactiver l'environnement:  
 ```bash
