@@ -9,6 +9,12 @@ L'agent de ce projet utilise un duel DQN, après 29000 épisodes ou 171 heures d
   <img src="/miniature.gif" width="350" />
 </p>
 
+## Auteurs
+SAID Raoufdine 11502286  
+KORICHI Ilyes 11810510  
+ABDULLATIEF Noauffal 11803762  
+EL AZZOUZI Mohamed 11804134  
+
 ## Rapport et vidéo de démonstration
 Le rapport est dans le répertoire `doc` au format pdf.  
 Une vidéo de démonstration après les 29000 épisodes est disponible sur YouTube à l'url suivante: https://www.youtube.com/watch?v=idIOWg084KQ .  
